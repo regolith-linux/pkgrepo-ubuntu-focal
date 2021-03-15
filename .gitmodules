@@ -1,0 +1,4 @@
+[submodule "pkgrepo-lib"]
+	path = pkgrepo-lib
+	url = git@github.com:regolith-linux/pkgrepo-lib.git
+	branch = release
