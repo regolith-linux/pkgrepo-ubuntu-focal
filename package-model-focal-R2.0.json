@@ -15,13 +15,6 @@
             "packageBranch": "applied/ubuntu/groovy"
         },
         {
-            "gitRepoUrl": "https://salsa.debian.org/gnome-team/json-glib.git",
-            "packageName": "json-glib",
-            "buildPath": "json-glib",
-            "upstreamTarball": "",
-            "packageBranch": "debian/1.5.2-1"
-        },
-        {
             "gitRepoUrl": "https://github.com/regolith-linux/i3-snapshot.git",
             "packageName": "i3-snapshot",
             "buildPath": "i3-snapshot",
@@ -54,7 +47,7 @@
             "packageName": "i3-gaps-wm",
             "buildPath": "i3-gaps-wm",
             "upstreamTarball": "",
-            "packageBranch": "debian/buster"
+            "packageBranch": "ubuntu/focal"
         },
         {
             "gitRepoUrl": "https://github.com/regolith-linux/regolith-i3-config.git",
