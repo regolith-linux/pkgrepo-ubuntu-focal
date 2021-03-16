@@ -42,7 +42,7 @@ jobs:
         run: |
           export DEBEMAIL="regolith.linux@gmail.com"
           export DEBFULLNAME="Regolith Linux"
-          ./build-deb-repo.sh ./package-model-focal-R2.0.json ./docs /tmp/reprepro focal
+          ./pkgrepo-lib/build-deb-repo.sh ./package-model-focal-R2.0.json ./docs /tmp/reprepro focal
 
       - name: Commit Files
         if: steps.changes.outputs.changed == 1
