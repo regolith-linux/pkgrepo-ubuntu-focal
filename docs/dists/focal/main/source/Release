@@ -1,0 +1,5 @@
+Component: main
+Origin: regolith-linux.github.io/debian-repo
+Label: Regolith Desktop Environment
+Architecture: source
+Description: Regolith Ubuntu

@@ -1,0 +1,5 @@
+Component: main
+Origin: regolith-linux.github.io/debian-repo
+Label: Regolith Desktop Environment
+Architecture: amd64
+Description: Regolith Ubuntu

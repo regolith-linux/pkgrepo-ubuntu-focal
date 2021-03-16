@@ -1,0 +1,1201 @@
+Package: ayu-theme
+Version: 0.2.0-1ubuntu1~ppa1-1regolith-1615864566
+Architecture: amd64
+Maintainer: Regolith Linux <regolith.linux@gmail.com>
+Installed-Size: 10305
+Homepage: https://github.com/appelgriebsch/ayu-theme
+Priority: extra
+Section: x11
+Filename: pool/main/a/ayu-theme/ayu-theme_0.2.0-1ubuntu1~ppa1-1regolith-1615864566_amd64.deb
+Size: 311080
+SHA256: 479a2d09ad72a467ebab2cddf2111b2cdc0300794b13b76391e2c1ff2cbf16b6
+SHA1: 4d668254445fd5a35b953662583a6a7e26d80a9c
+MD5sum: dbd293b0d2bd802151962070594a05b4
+Description: Ayu Themes for GNOME 3.22
+
+Package: fonts-jetbrains-mono
+Version: 1.0.1-1regolith1-1regolith-1615864465
+Architecture: all
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 3848
+Multi-Arch: foreign
+Homepage: https://jetbrains.com/lp/mono
+Priority: optional
+Section: fonts
+Filename: pool/main/f/fonts-jetbrains-mono/fonts-jetbrains-mono_1.0.1-1regolith1-1regolith-1615864465_all.deb
+Size: 420164
+SHA256: 2bc04f17837397c6a064b68444cf8bde5e082b0d0348a4a22915bca219faecc9
+SHA1: bf44acc3dc4c484331262d071a242d6d2ed693da
+MD5sum: 30e346c1be0a6c456f880865b8441899
+Description: Jetbrains Monon Typeface
+ See https://www.jetbrains.com/lp/mono/
+ .
+ The packaging is informal. I do not plan to upload this to Debian as
+ I am unsure about the copyright status of the toolchain. The
+ packaging also a somewhat hackish shortcut by extracting the files
+ from the released file obtained from the github repo.
+ .
+ I would be happy for another maintainer (or the fonts team) to take
+ it over as well.
+
+Package: fonts-materialdesignicons-webfont
+Version: 1.6.50-3regolith1-1regolith-1615864478
+Architecture: all
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Installed-Size: 2781
+Multi-Arch: foreign
+Homepage: https://github.com/Templarian/MaterialDesign-Webfont
+Priority: optional
+Section: fonts
+Filename: pool/main/f/fonts-materialdesignicons-webfont/fonts-materialdesignicons-webfont_1.6.50-3regolith1-1regolith-1615864478_all.deb
+Size: 552592
+SHA256: ac73d27b4c1eb0481d83e61a8acf2f16a5b827f82694f6c18b103362d4fe002d
+SHA1: 7190f923dc756c0cf14e9a26de20292f64aef0cd
+MD5sum: 00c8307da7a47bc0675da85c45543233
+Description: font containing Material Design Icons
+ Material Design Icons' growing icon collection allows designers and developers
+ targeting various platforms to download icons in the format, color and size
+ they need for any project. This font contains icons form this collection.
+ .
+ This package also provides Css, Scss and LESS files to use webfonts from this
+ package.
+
+Package: i3-gaps
+Source: i3-gaps-wm
+Version: 4.19-1ubuntu1-1regolith-1615864493
+Architecture: amd64
+Maintainer: Michael Stapelberg <stapelberg@debian.org>
+Installed-Size: 21
+Depends: i3-gaps-wm (= 4.19-1ubuntu1-1regolith-1615864493), i3-gaps-session (= 4.19-1ubuntu1-1regolith-1615864493)
+Recommends: i3lock (>= 2.2), suckless-tools, i3status (>= 2.3), dunst
+Homepage: https://i3wm.org/
+Priority: extra
+Section: x11
+Filename: pool/main/i/i3-gaps-wm/i3-gaps_4.19-1ubuntu1-1regolith-1615864493_amd64.deb
+Size: 15078
+SHA256: a27c6d14328ad13d4ac560f778859da7f1dc8155c328793e56e9a8d6ff1bd785
+SHA1: 06c506b4ab075274f2f5d603eab307c293c9c943
+MD5sum: c94cc4ea28fb3e9bfc9afe67d6e43e13
+Description: metapackage (i3-gaps window manager, screen locker, menu, statusbar)
+ This metapackage installs the i3-gaps window manager (i3-gaps-wm), xsession, the i3lock screen
+ locker, i3status (for system information) and suckless-tools (for dmenu).
+ These are all the tools you need to use the i3-gaps window manager efficiently.
+
+Package: i3-gaps-session
+Source: i3-gaps-wm
+Version: 4.19-1ubuntu1-1regolith-1615864493
+Architecture: amd64
+Maintainer: Michael Stapelberg <stapelberg@debian.org>
+Installed-Size: 24
+Depends: i3-gaps-wm (= 4.19-1ubuntu1-1regolith-1615864493)
+Homepage: https://i3wm.org/
+Priority: extra
+Section: x11
+Filename: pool/main/i/i3-gaps-wm/i3-gaps-session_4.19-1ubuntu1-1regolith-1615864493_amd64.deb
+Size: 15282
+SHA256: ced4ff20605a055a9b9feab3bc78744ad3a861ec1f18c2715fa8ee9587da76af
+SHA1: 474175e55ac5ab053810eeed067d2eb9d743ec03
+MD5sum: 43da7ad652977f16ee49b0bf20c87dc4
+Description: Xsession for i3-gaps
+
+Package: i3-gaps-wm
+Version: 4.19-1ubuntu1-1regolith-1615864493
+Architecture: amd64
+Maintainer: Michael Stapelberg <stapelberg@debian.org>
+Installed-Size: 957
+Depends: libc6 (>= 2.28), libcairo2 (>= 1.14.4), libev4 (>= 1:4.04), libglib2.0-0 (>= 2.51.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.22.0), libpcre3, libstartup-notification0 (>= 0.10), libxcb-cursor0 (>= 0.0.99), libxcb-icccm4 (>= 0.4.1), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.12), libxcb-shape0, libxcb-util1 (>= 0.4.0), libxcb-xinerama0, libxcb-xkb1, libxcb-xrm0 (>= 0.0.0), libxcb1 (>= 1.6), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0), libyajl2 (>= 2.0.4), perl:any
+Recommends: xfonts-base, fonts-dejavu-core, libanyevent-i3-perl (>= 0.12), libjson-xs-perl, rxvt-unicode | x-terminal-emulator
+Conflicts: i3-wm
+Replaces: i3-wm
+Provides: i3-wm, x-window-manager
+Homepage: https://i3wm.org/
+Priority: extra
+Section: x11
+Filename: pool/main/i/i3-gaps-wm/i3-gaps-wm_4.19-1ubuntu1-1regolith-1615864493_amd64.deb
+Size: 384136
+SHA256: 22decccfb6e56fdc6c7382446f2b2c1100296f5bcd1300940c97ea8ea8291fc6
+SHA1: 322bad96c13792574bd87cdec493a8ee072cc9d7
+MD5sum: e1f1d44cbfb45e5d2aae56c2010a4c39
+Description: improved dynamic tiling window manager
+ Key features of i3-gaps are good documentation, reasonable defaults (changeable in
+ a simple configuration file) and good multi-monitor support. The user
+ interface is designed for power users and emphasizes keyboard usage. i3-gaps uses
+ XCB for asynchronous communication with X11 and aims to be fast and
+ light-weight.
+ .
+ Please be aware i3-gaps is primarily targeted at advanced users and developers.
+
+Package: i3-gaps-wm-dbg
+Source: i3-gaps-wm
+Version: 4.19-1ubuntu1-1regolith-1615864493
+Architecture: amd64
+Maintainer: Michael Stapelberg <stapelberg@debian.org>
+Installed-Size: 1372
+Depends: i3-gaps-wm (= 4.19-1ubuntu1-1regolith-1615864493)
+Homepage: https://i3wm.org/
+Priority: extra
+Section: debug
+Filename: pool/main/i/i3-gaps-wm/i3-gaps-wm-dbg_4.19-1ubuntu1-1regolith-1615864493_amd64.deb
+Size: 1227028
+SHA256: 681dc549516dc93743eac9c39784d21ffdb30f015ee345342e423dbf45e0971e
+SHA1: 2782f5ed7826af1054a7c34151843605c489e02f
+MD5sum: a8cab9e9122fac8d0a2ce8fd14c54232
+Description: Debugging symbols for the i3-gaps window manager
+ Debugging symbols for the i3-gaps window manager. Please install this to produce
+ useful backtraces before creating new tickets.
+Build-Ids: 05bf8bde9e9bed98c55868aac24dab6816550b1c 4e1dc726538bd65cc78a459d3199843e7a1bbdf2 546cbe993a2a9654df57a00dcdfd8a90c5ea88cc 7d140fa1b15d8f1a9ce524cc48768767889eaac4 b95ad7d8458ac982057e94d422dbd85f8f140369 d8223d7be7b7656990b365ac2b0e13e83a3f368a dfbda06966d0f4ef6ec279f06115d0a720389196
+
+Package: i3-next-workspace
+Version: 1.0.1-1-1regolith-1615864614
+Architecture: amd64
+Maintainer: Regolith Linux <regolith.linux@gmail.com>
+Installed-Size: 12
+Depends: python3 (>= 3.5), python3-i3ipc
+Homepage: https://regolith-linux.org
+Priority: optional
+Section: x11
+Filename: pool/main/i/i3-next-workspace/i3-next-workspace_1.0.1-1-1regolith-1615864614_amd64.deb
+Size: 2776
+SHA256: 7ab94840970413d6281f9103539cae66f589ced5b75b918c1acaa4f32946f4ee
+SHA1: 3685bf21a309beab66786d15197f835dfc514cef
+MD5sum: 421149c25ff2903b2b21908d7f625a3d
+Description: Script to open next workspace
+ An i3 script intended to be called by keybinding
+ to open next available empty workspace.
+
+Package: i3-snapshot
+Version: 1.0-1ubuntu1~ppa1-1regolith-1615864413
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 152
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libjsoncpp1 (>= 1.7.4), libsigc++-2.0-0v5 (>= 2.8.0), libstdc++6 (>= 9), i3-wm
+Multi-Arch: foreign
+Homepage: https://github.com/regolith-linux/i3-snapshot
+Priority: extra
+Section: x11
+Filename: pool/main/i/i3-snapshot/i3-snapshot_1.0-1ubuntu1~ppa1-1regolith-1615864413_amd64.deb
+Size: 48416
+SHA256: 90f93cacc161a7f03a51799242bae66d75368ecf9fd080d70492379201214ae8
+SHA1: 96529eff9c8f974bea5540808a4c375eecac0bc7
+MD5sum: d9ada20f089c5f655343098711f29531
+Description: Record and restore window and workspace containment structure in i3-wm
+
+Package: i3xrocks
+Version: 1.3.5-1-1regolith-1615864626
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 65
+Depends: libc6 (>= 2.17), libxcb-xrm0 (>= 0.0.0), libxcb1
+Homepage: https://github.com/regolith-linux/i3xrocks
+Priority: optional
+Section: x11
+Filename: pool/main/i/i3xrocks/i3xrocks_1.3.5-1-1regolith-1615864626_amd64.deb
+Size: 21212
+SHA256: 20e24d13ede3eeac1be13df3446ba4437f41cb390bdbc3e14f67ac61726432aa
+SHA1: ce73bfb6819ea9ccebec63a9016d996f1e374f6a
+MD5sum: dc803e254477e6797f528eaf93573881
+Description: i3blocks with Xresources and conf.d configuration
+ i3xrocks is a tracking fork of i3blocks that adds a few features
+ for the Regolith Desktop Environment.
+
+Package: i3xrocks-battery
+Source: regolith-i3xrocks-config
+Version: 3.6.0-1-1regolith-1615864644
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 25
+Depends: regolith-i3xrocks-config, upower
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-battery_3.6.0-1-1regolith-1615864644_amd64.deb
+Size: 9380
+SHA256: e559508a5e832610e98b36eb19bc7e676165163dd91630acb3fd718bb6f06ec3
+SHA1: 18192dd789789b3c086091a63777823c80e45f4c
+MD5sum: d2a2b0f03bb30214ebd7dc0c0c39f555
+Description: Indicator to show battery status.
+ An i3xrocks indicator to show the current battery status.
+
+Package: i3xrocks-bluetooth
+Source: regolith-i3xrocks-config
+Version: 3.6.0-1-1regolith-1615864644
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 26
+Depends: python3 (>= 3.5), python3-dbus, regolith-i3xrocks-config
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-bluetooth_3.6.0-1-1regolith-1615864644_amd64.deb
+Size: 9760
+SHA256: 7076f7d77c16e834f99d329e8c6f4d775621478c94c02bf814ca70ccc4786fb9
+SHA1: 98bfb591097935860ddceb65133c60e6f97de034
+MD5sum: e04e42a9bdf5268a141d5349fe251f26
+Description: Indicator to show currently connected Bluetooth devices.
+ An i3xrocks indicator to show the currently connected Bluetooth devices.
+
+Package: i3xrocks-cpu-usage
+Source: regolith-i3xrocks-config
+Version: 3.6.0-1-1regolith-1615864644
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 24
+Depends: regolith-i3xrocks-config, gnome-system-monitor, sysstat
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-cpu-usage_3.6.0-1-1regolith-1615864644_amd64.deb
+Size: 9384
+SHA256: c877a79c3112d5ba5c5d16766b2b4a805ab2fcb0d285c60afea38cd882903ad3
+SHA1: edc05202e890fb0761b07d1d2432484ccc5e8f11
+MD5sum: 32a5a18cb2f77e64c53ea21f6dd1ae31
+Description: Indicator to show CPU load.
+ An i3xrocks indicator to show CPU load.
+
+Package: i3xrocks-disk-capacity
+Source: regolith-i3xrocks-config
+Version: 3.6.0-1-1regolith-1615864644
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 24
+Depends: gnome-disk-utility, regolith-i3xrocks-config, bash (>= 3), coreutils (>= 8)
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-disk-capacity_3.6.0-1-1regolith-1615864644_amd64.deb
+Size: 9040
+SHA256: 4540fe23bb9403c4304c7dc01ceaea2dc4fa12ef993f3ca2ef224cc07cbaa233
+SHA1: 292e7e963590c7151c98b7ae0db75bbd4b5cfc47
+MD5sum: 8c5cf8832cea38f6447efc460428e937
+Description: Indicator for disk capacity.
+ An i3xrocks indicator for disk capacity.
+
+Package: i3xrocks-focused-window-name
+Source: regolith-i3xrocks-config
+Version: 3.6.0-1-1regolith-1615864644
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 26
+Depends: python3 (>= 3.5), regolith-i3xrocks-config, python3-i3ipc
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-focused-window-name_3.6.0-1-1regolith-1615864644_amd64.deb
+Size: 9588
+SHA256: a4a0c2a21d8d640fe2423ad8c4b1b93f153a94daa941e1f646b748072013cf3d
+SHA1: deb0cf5ef4e172ac6f44cf71963aaded4ccf1f2a
+MD5sum: 3d6bd49528da13ad054ea720a46ddd8a
+Description: Indicator to show focused window name.
+ An i3xrocks indicator to show the name of the focused window.
+
+Package: i3xrocks-info
+Source: regolith-i3xrocks-config
+Version: 3.6.0-1-1regolith-1615864644
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 21
+Depends: regolith-i3xrocks-config, remontoire, regolith-ftue
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-info_3.6.0-1-1regolith-1615864644_amd64.deb
+Size: 8512
+SHA256: 58cc32aa04327e2ddad8f08b8d40440cd2f4800a3d848efffe548ac7c09a7f88
+SHA1: a1f7633ce43015b74bed1076dbf39a21f1b5c553
+MD5sum: 2fbdb696e3327e214ac17bfa0bc57a36
+Description: Indicator launch Remontoire.
+ An i3xrocks indicator to launch Remontoire.
+
+Package: i3xrocks-key-indicator
+Source: regolith-i3xrocks-config
+Version: 3.6.0-1-1regolith-1615864644
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 24
+Depends: regolith-i3xrocks-config, x11-xserver-utils
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-key-indicator_3.6.0-1-1regolith-1615864644_amd64.deb
+Size: 8912
+SHA256: 51681d06f854cfb028e4db8facfd2680f3da9b81cf1194203e431cd5a1e6ac62
+SHA1: 4a86b38226d8f56b577b59788d79da75be0ec970
+MD5sum: 50ffb6bcdd3bddb3c8377e688c5a1e8a
+Description: Indicator for caps and num lock status.
+ An i3xrocks indicator for showing the current caps- and num-lock status.
+
+Package: i3xrocks-keyboard-layout
+Source: regolith-i3xrocks-config
+Version: 3.6.0-1-1regolith-1615864644
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 25
+Depends: regolith-i3xrocks-config, libglib2.0-bin
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-keyboard-layout_3.6.0-1-1regolith-1615864644_amd64.deb
+Size: 9408
+SHA256: 0c3c0ce53a0fb7cccc43861ce80cad4170639bccb1a1404b73dc4c103d907dfe
+SHA1: f261c6ba1976df47e28e7190386d9f636c912a6d
+MD5sum: 64bf697ad96d83d6915f957990e758a0
+Description: Indicator to show keyboard layout.
+ An i3xrocks indicator to show the current keyboard layout.
+
+Package: i3xrocks-media-player
+Source: regolith-i3xrocks-config
+Version: 3.6.0-1-1regolith-1615864644
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 25
+Depends: regolith-i3xrocks-config, playerctl
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-media-player_3.6.0-1-1regolith-1615864644_amd64.deb
+Size: 9492
+SHA256: 0d1f1d1f16464f80880c6a9fe4e1beddac8727bbc9ab21257c32b4208ad12603
+SHA1: 5c3fc23d52ab0a9efa10c8678f8a68c2d61016be
+MD5sum: 4bd4b2a0ab4515c08cb27ebc15485b7b
+Description: Indicator for managing media playback.
+ An i3xrocks indicator for managing media playback.
+
+Package: i3xrocks-memory
+Source: regolith-i3xrocks-config
+Version: 3.6.0-1-1regolith-1615864644
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 25
+Depends: regolith-i3xrocks-config, gnome-system-monitor
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-memory_3.6.0-1-1regolith-1615864644_amd64.deb
+Size: 9276
+SHA256: 2cc0e52ba9a7bf1544eee08efdced7b26d65f124f984605df01c8233ff0eb146
+SHA1: 9e1bb9185ba0d9ffc40aa734da319e4bd1b8aec4
+MD5sum: 5741e7ec4ef7f3451cb1bd241b2de949
+Description: Indicator to show memory utilization.
+ An i3xrocks indicator to show memory utilization.
+
+Package: i3xrocks-net-traffic
+Source: regolith-i3xrocks-config
+Version: 3.6.0-1-1regolith-1615864644
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 25
+Depends: bc, regolith-i3xrocks-config
+Recommends: gnome-control-center
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-net-traffic_3.6.0-1-1regolith-1615864644_amd64.deb
+Size: 9500
+SHA256: 2a4d536e1beb52c706f426c358e6c5312c0720b3955fe3e46809736a19ba9b5c
+SHA1: 4e663bcf42ff3864e16906b0c6a96b6834c95656
+MD5sum: 41c56ab315b3ae9cf75c74366b1a44a2
+Description: Indicator to show network I/O status.
+ An i3xrocks indicator to show network I/O status.
+
+Package: i3xrocks-next-workspace
+Source: regolith-i3xrocks-config
+Version: 3.6.0-1-1regolith-1615864644
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 23
+Depends: python3 (>= 3.5), regolith-i3xrocks-config, i3-next-workspace, python3-i3ipc
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-next-workspace_3.6.0-1-1regolith-1615864644_amd64.deb
+Size: 8824
+SHA256: c282af733a870e17004dc07afb85ffc520ac25ea78904d291a95aa24aa95abaa
+SHA1: 2433338390d70dd9e72ea8654350ee5a739866da
+MD5sum: 258458e83c905ab7810c7f6dbdcc8bca
+Description: Button to open next workspace.
+ An i3xrocks widget to open next available empty workspace.
+
+Package: i3xrocks-nm-vpn
+Source: regolith-i3xrocks-config
+Version: 3.6.0-1-1regolith-1615864644
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 23
+Depends: regolith-i3xrocks-config, network-manager
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-nm-vpn_3.6.0-1-1regolith-1615864644_amd64.deb
+Size: 8872
+SHA256: 3f019d1291d0aee4251e3bc644bcf634eec2a29d629b5f28d9f3cd81858ce0c4
+SHA1: c5334bc96dcac71339b2b128b9e2ba4d2bda6b43
+MD5sum: f0004df7869323969f94057cfb1ad05e
+Description: Network-Manager VPN indicator.
+ A i3xrocks indicator for showing the Network-Manager VPN status.
+
+Package: i3xrocks-openvpn
+Source: regolith-i3xrocks-config
+Version: 3.6.0-1-1regolith-1615864644
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 27
+Depends: regolith-i3xrocks-config, perl
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-openvpn_3.6.0-1-1regolith-1615864644_amd64.deb
+Size: 9944
+SHA256: 858ab661bd76e5a808dc4ccffc732af9bffd78389871959d5676030776065682
+SHA1: c0e6bdda73ec3584c28709d27d0939f03e89e33d
+MD5sum: 69d2f122943cfecc291af6b8fce5011c
+Description: Indicator to show openvpn status.
+ A i3xrocks indicator for showing the current OpenVPN status.
+
+Package: i3xrocks-rofication
+Source: regolith-i3xrocks-config
+Version: 3.6.0-1-1regolith-1615864644
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 21
+Depends: i3xrocks, regolith-rofication, regolith-i3xrocks-config
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-rofication_3.6.0-1-1regolith-1615864644_amd64.deb
+Size: 8488
+SHA256: 773ae740aa25793cd8913f76ace9981dbaa21e7f540257d05a1c39f96923fd3d
+SHA1: fa9058c8937d3fd27349baca93769627eb06721a
+MD5sum: 14b2f869a1b36045b9fd5105706eefb0
+Description: Status indicator for rofication
+ See active system notifications on the bar.
+
+Package: i3xrocks-temp
+Source: regolith-i3xrocks-config
+Version: 3.6.0-1-1regolith-1615864644
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 23
+Depends: regolith-i3xrocks-config, lm-sensors
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-temp_3.6.0-1-1regolith-1615864644_amd64.deb
+Size: 8932
+SHA256: 64b8bc6364a64e786e01249c9ed2f519d9844a3acb60cffdbc04c749f026336e
+SHA1: bd11411659dcbd86bc33d47ff2beefc1c1c093cd
+MD5sum: 7bba0ff64ffa98583a9d8807b550a1c5
+Description: Indicator for system temperature.
+ An i3xrocks indicator for displaying the system temperature.
+
+Package: i3xrocks-time
+Source: regolith-i3xrocks-config
+Version: 3.6.0-1-1regolith-1615864644
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 24
+Depends: regolith-i3xrocks-config, gnome-control-center
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-time_3.6.0-1-1regolith-1615864644_amd64.deb
+Size: 9184
+SHA256: 69ba64a09645bc1fc2912945d980642e82100924c57ed71c975c80b611c846ed
+SHA1: 871d8720041d6a3a926b7e085a32ec0f046161e2
+MD5sum: 486bcd312c1a13d936dad9f22c2d23ab
+Description: Indicator to show date and time.
+ An i3xrocks indicator to show date and time.
+
+Package: i3xrocks-volume
+Source: regolith-i3xrocks-config
+Version: 3.6.0-1-1regolith-1615864644
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 26
+Depends: regolith-i3xrocks-config, alsa-utils
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-volume_3.6.0-1-1regolith-1615864644_amd64.deb
+Size: 9796
+SHA256: 59d28f180f6b3cb436c0736a41abcbf3c6c29d204147b390af80e7ee31f6d018
+SHA1: 5ed01e8ae0db3ff1fbfc5498ad6c7da601f179a1
+MD5sum: 9e9d66781badf2b1c243418812b373ef
+Description: Indicator to show volume.
+ An i3xrocks indicator for showing the current sound volume.
+
+Package: i3xrocks-weather
+Source: regolith-i3xrocks-config
+Version: 3.6.0-1-1regolith-1615864644
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 24
+Depends: regolith-i3xrocks-config, curl, fonts-noto-color-emoji, xdg-utils
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-weather_3.6.0-1-1regolith-1615864644_amd64.deb
+Size: 9112
+SHA256: 6511176008087c1305d2d1b7e893cc787af9eb8efd0ffda2164d841c98d2c01e
+SHA1: dae1d4e6c804578f49bcdca590df0cc7f129903d
+MD5sum: e335644e7d618e8b1c1202ecd03b0df3
+Description: Indicator to show local weather.
+ An i3xrocks indicator for showing the local weather.
+
+Package: i3xrocks-wifi
+Source: regolith-i3xrocks-config
+Version: 3.6.0-1-1regolith-1615864644
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 23
+Depends: regolith-i3xrocks-config, network-manager
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-wifi_3.6.0-1-1regolith-1615864644_amd64.deb
+Size: 8948
+SHA256: cf6497099cd6824395f9d7a99075ffb0a25a2b8c183e2649d14186fe013ad34d
+SHA1: 508da6f40157273a21d82798d907551403651aec
+MD5sum: 0fcd78818542914dee62894410a7f910
+Description: Indicator to display the current Wi-Fi network name.
+ An i3xrocks indicator for displaying the name of the
+ currently connect Wi-Fi network.
+
+Package: libxcb-util-dev
+Source: xcb-util
+Version: 0.4.0-0ubuntu3-1regolith-1615864373
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 70
+Depends: libxcb-util1 (= 0.4.0-0ubuntu3-1regolith-1615864373), libxcb1-dev
+Conflicts: libxcb-atom1-dev, libxcb-aux0-dev, libxcb-event1-dev, libxcb-property1-dev, libxcb-reply1-dev
+Breaks: libxcb-util0-dev (<< 0.4.0-0ubuntu1)
+Replaces: libxcb-atom1-dev, libxcb-aux0-dev, libxcb-event1-dev, libxcb-property1-dev, libxcb-reply1-dev, libxcb-util0-dev (<< 0.4.0-0ubuntu1)
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Priority: extra
+Section: libdevel
+Filename: pool/main/x/xcb-util/libxcb-util-dev_0.4.0-0ubuntu3-1regolith-1615864373_amd64.deb
+Size: 25476
+SHA256: 4cd31133e0d03d8c419910fef33c98ed9a01b39b0e318a4b0204c281ac6ca853
+SHA1: 8ec28d20831c09066a744f57b480720d4f61f789
+MD5sum: d96880a90ea8e080c839c4e619adbe06
+Description: utility libraries for X C Binding -- atom, aux and event
+ This package contains the header and library files needed to build software
+ using libxcb-util.
+ .
+ The xcb-util module provides a number of libraries which sit on top of
+ libxcb, the core X protocol library, and some of the extension
+ libraries. These experimental libraries provide convenience functions
+ and interfaces which make the raw X protocol more usable. Some of the
+ libraries also provide client-side code which is not strictly part of
+ the X protocol but which have traditionally been provided by Xlib.
+
+Package: libxcb-util0-dev
+Source: xcb-util
+Version: 0.4.0-0ubuntu3-1regolith-1615864373
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 26
+Depends: libxcb-util-dev (= 0.4.0-0ubuntu3-1regolith-1615864373)
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Priority: extra
+Section: libdevel
+Filename: pool/main/x/xcb-util/libxcb-util0-dev_0.4.0-0ubuntu3-1regolith-1615864373_amd64.deb
+Size: 17940
+SHA256: de4a6466a58f35a33d086ee42b1ae5d198161099a14a09590ec6cd0be172c2f5
+SHA1: 4094f98c6fcf271372942220e99a4c02ede15fd9
+MD5sum: 4e75b110fe03fd9f0b61396842cb7fc7
+Description: dummy transitional package for utility libraries for X C Binding -- atom, aux and event
+ This is a transitional dummy package for libxcb-util0-dev to
+ libxcb-util-dev migration.
+ .
+ This package can be safely removed.
+
+Package: libxcb-util1
+Source: xcb-util
+Version: 0.4.0-0ubuntu3-1regolith-1615864373
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 63
+Depends: libc6 (>= 2.8), libxcb1
+Multi-Arch: same
+Homepage: http://xcb.freedesktop.org
+Priority: extra
+Section: libs
+Filename: pool/main/x/xcb-util/libxcb-util1_0.4.0-0ubuntu3-1regolith-1615864373_amd64.deb
+Size: 24256
+SHA256: fb72927803c9eae7bbc05c9b6fece8e98bf47bb43ad6c2ac2ff9db05ef630689
+SHA1: 752047b1377888a59ae2fcb8b414814bca415f92
+MD5sum: 161ad1a6ed1a70a56023e52fc2596116
+Description: utility libraries for X C Binding -- atom, aux and event
+ This package contains the library files needed to run software using
+ libxcb-util.
+ .
+ The xcb-util module provides a number of libraries which sit on top of
+ libxcb, the core X protocol library, and some of the extension
+ libraries. These experimental libraries provide convenience functions
+ and interfaces which make the raw X protocol more usable. Some of the
+ libraries also provide client-side code which is not strictly part of
+ the X protocol but which have traditionally been provided by Xlib.
+
+Package: python3-i3ipc
+Version: 2.1.1-1ubuntu1~ppa7-1regolith-1615864445
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 120
+Depends: python3-xlib, python3:any (>= 3.4~), python3-gi, python3-dbus
+Homepage: https://github.com/altdesktop/i3ipc-python
+Priority: optional
+Section: x11
+Filename: pool/main/p/python3-i3ipc/python3-i3ipc_2.1.1-1ubuntu1~ppa7-1regolith-1615864445_amd64.deb
+Size: 20572
+SHA256: a575e3718d10d7380f949ae0177b15fb38ee710a31f044561701f6b297d8079f
+SHA1: 4c16d1994455209d758eaf7e9ab7406eb34eee07
+MD5sum: 124b3ff568f6a94baea3918a4e61772d
+Description: An improved Python library to control i3wm and sway.
+
+Package: regolith-compositor-compton-glx
+Version: 1.1.0-1-1regolith-1615864710
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 23
+Depends: compton
+Conflicts: regolith-compositor, regolith-compton-config
+Replaces: regolith-compositor, regolith-compton-config
+Provides: regolith-compositor
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-compositor-compton-glx/regolith-compositor-compton-glx_1.1.0-1-1regolith-1615864710_amd64.deb
+Size: 5620
+SHA256: ce409d040102dcbcd09fd25d8b25d3ec696767e1ec362742f3ccac1eb92aafcd
+SHA1: 5bfa81d91bfabd98cb824db860fead72b978d00f
+MD5sum: 469e6f34b4dfc82241987ccf6db0b0fd
+Description: Regolith configuration for Compton
+ Default configuration for Regolith compositor using picom compositor
+ before name change, and using the glx backend.
+
+Package: regolith-compositor-none
+Version: 1.0.3-1-1regolith-1615864687
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 11
+Conflicts: regolith-compositor
+Replaces: regolith-compositor
+Provides: regolith-compositor
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-compositor-none/regolith-compositor-none_1.0.3-1-1regolith-1615864687_amd64.deb
+Size: 2232
+SHA256: 6f5cc4c490113dd6d27d0e0cd7ae443f7354f4af765dd950773d32d1d85cf2be
+SHA1: 3459924c38942b4a0968bbe40d5667b507895d1d
+MD5sum: 24ed3c815c607a7b35c28e629774d82b
+Description: Regolith configuration for no compositor
+ This package provides the regolith compositor init
+ script that executes nothing.
+
+Package: regolith-compositor-picom-glx
+Version: 1.1.3-1-1regolith-1615864722
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 23
+Depends: picom
+Conflicts: regolith-compositor, regolith-picom-config
+Replaces: regolith-compositor, regolith-picom-config
+Provides: regolith-compositor
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-compositor-picom-glx/regolith-compositor-picom-glx_1.1.3-1-1regolith-1615864722_amd64.deb
+Size: 5276
+SHA256: cdcce6d1ac0bf044c508b24e87f10ae421f7dd5af56d2e82d9a38bc26e63adcd
+SHA1: 88be9e2839318d234f4d6a7cfc46720674321c1d
+MD5sum: f13cbec07189502b1c689184406e4894
+Description: Regolith configuration for picom
+ Default configuration for Regolith compositor using picom compositor
+ before name change, and using the glx backend.
+
+Package: regolith-compositor-xcompmgr
+Version: 1.2.0-1-1regolith-1615864698
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 11
+Depends: xcompmgr
+Conflicts: regolith-compositor
+Replaces: regolith-compositor
+Provides: regolith-compositor
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-compositor-xcompmgr/regolith-compositor-xcompmgr_1.2.0-1-1regolith-1615864698_amd64.deb
+Size: 2472
+SHA256: d3977ca019bdd63be4306c80888443f4688e180534c45221529578c340429a9c
+SHA1: 74808039914fe086c944302b07f40be56937c6b5
+MD5sum: 4f62177f8cd26cc0fdcaadb0faa32a16
+Description: Regolith configuration for Xcompmgr
+ A compositor init that uses xcompmgr.
+
+Package: regolith-default-settings
+Version: 2.0.1-1focal-1regolith-1615864792
+Architecture: amd64
+Maintainer: Regolith Linux <regolith.linux@gmail.com>
+Installed-Size: 16
+Depends: dconf-gsettings-backend | gsettings-backend, adwaita-icon-theme, ayu-theme
+Breaks: regolith-gnome-flashback (<< 2.5.0)
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-default-settings/regolith-default-settings_2.0.1-1focal-1regolith-1615864792_amd64.deb
+Size: 2768
+SHA256: 546d19e78dd49611c41931593e38ee4a6bae05ed6be18036ff88453c7bdefe7f
+SHA1: 86d9920c2c342f19838935e742dfbbf3a3a23015
+MD5sum: b6d3384552419b3e1b3ed85aa71bd12b
+Description: Regolith default settings
+
+Package: regolith-desktop-core
+Source: regolith-desktop
+Version: 3.0.9-1-1regolith-1615864662
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 16
+Depends: regolith-default-settings, regolith-session-flashback | regolith-desktop-session, x-terminal-emulator, xorg
+Conflicts: unclutter-startup
+Multi-Arch: foreign
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-desktop/regolith-desktop-core_3.0.9-1-1regolith-1615864662_amd64.deb
+Size: 5432
+SHA256: 6a10fb9970d7d902cbc48f7448817c3b7630e1a3f11e2e68d5c97c3165c15b86
+SHA1: 2f7788490cb550f544ce204d9ef27657a70081fa
+MD5sum: 49ce0abfd2f4f5133203ee0001f4b6cc
+Description: metapackage for minimal Regolith desktop environment
+ This package does not provide a functional desktop environment.
+
+Package: regolith-desktop-small
+Source: regolith-desktop
+Version: 3.0.9-1-1regolith-1615864662
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 12
+Depends: regolith-desktop-core, mutter-common
+Recommends: i3-next-workspace, i3xrocks-cpu-usage, i3xrocks-net-traffic, i3xrocks-time, regolith-i3-compositor, regolith-i3-ftue, regolith-i3-gaps-partial, regolith-i3-gnome, regolith-i3-i3xrocks, regolith-i3-remontoire, regolith-i3-rofi, regolith-i3-rofication, regolith-i3xrocks-config
+Suggests: update-manager, software-properties-gtk
+Conflicts: regolith-desktop-meta
+Replaces: regolith-desktop-meta
+Provides: regolith-desktop-meta
+Multi-Arch: foreign
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-desktop/regolith-desktop-small_3.0.9-1-1regolith-1615864662_amd64.deb
+Size: 5424
+SHA256: c578714d49ed24772245d7381d9be8b716fac4d719e8f59a69d08269e956f8b7
+SHA1: 9aa630520e298a9bc263c7242c2a191eaabcf38a
+MD5sum: 94b57c7ca4c5336e554b3b42f3db3281
+Description: metapackage for a light but functional Regolith desktop environment
+ This package contains minimal packages for a functional desktop.
+
+Package: regolith-ftue
+Version: 2.0.3-1-1regolith-1615864675
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 30
+Depends: remontoire
+Recommends: gnome-terminal
+Conflicts: regolith-conky-config
+Replaces: regolith-conky-config
+Homepage: https://github.com/regolith-linux/regolith-ftue
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-ftue/regolith-ftue_2.0.3-1-1regolith-1615864675_amd64.deb
+Size: 7764
+SHA256: e644e9594d55e16e602531339d02902a5071303a00fdbb8711dc142fa8215ab8
+SHA1: 46092f85cbca10319dd248fa8e4813b566ee8250
+MD5sum: 2524ed8cb340409adc5c9ff8e4803aa8
+Description: Regolith first time user experience
+ This package includes scripts and configuration to provide help for
+ first time users.
+
+Package: regolith-i3-compositor
+Source: regolith-i3-config
+Version: 3.0.11-1-1regolith-1615864548
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 20
+Depends: regolith-compositor-none | regolith-compositor
+Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3-config/regolith-i3-compositor_3.0.11-1-1regolith-1615864548_amd64.deb
+Size: 6700
+SHA256: 250ebc78848dddf10221d7c9c1b19a61daa2a6d233ea08ce84b9a8fb95233fab
+SHA1: fd7f43537a150aa32c0e2963b2d7644f16a528a5
+MD5sum: 29f4b7e54885e2865ac1217805069eb9
+Description: Integration of compositor into i3
+
+Package: regolith-i3-config
+Version: 3.0.11-1-1regolith-1615864548
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 90
+Depends: i3-wm, xdg-utils, xdotool
+Conflicts: regolith-i3-wm
+Replaces: regolith-i3-wm
+Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3-config/regolith-i3-config_3.0.11-1-1regolith-1615864548_amd64.deb
+Size: 13360
+SHA256: edb1eec1e771ec084ac25791dac024e2e095cb48d5064e6e48ea1897eccb11c7
+SHA1: cea7998fee2f09561205f58ea6a692b0ec16c28a
+MD5sum: 5d62bb2f7b174c6a72b008bc2cb9dcf1
+Description: Regolith i3 config file
+ This is the i3 config file for the Regolith desktop environment.
+
+Package: regolith-i3-ftue
+Source: regolith-i3-config
+Version: 3.0.11-1-1regolith-1615864548
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 20
+Depends: regolith-ftue, regolith-i3-config, remontoire
+Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3-config/regolith-i3-ftue_3.0.11-1-1regolith-1615864548_amd64.deb
+Size: 6696
+SHA256: ffb3f601c1adbbb72da964f4b56bd1421446dd31d3f1c323e533d1d16d3ef8b0
+SHA1: 2f532588e04157e0fe999c10e29fb54855cbd067
+MD5sum: 7e5fd5a0f82e6b96e841b385be3a25d4
+Description: Help for new users
+
+Package: regolith-i3-gaps-partial
+Source: regolith-i3-config
+Version: 3.0.11-1-1regolith-1615864548
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 21
+Depends: regolith-i3-config, i3-gaps-wm, i3-snapshot
+Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3-config/regolith-i3-gaps-partial_3.0.11-1-1regolith-1615864548_amd64.deb
+Size: 6952
+SHA256: de8c82fc0cd8cf250d48d36fb63a5654ba62ff2273404d6bcf49f9b2e743395e
+SHA1: dd3bb78c908baa7f92c1d6fc85f0651944be8b90
+MD5sum: a33fe70d4daca33cb0dae7863e496610
+Description: Save and restore in-session window layouts in i3
+
+Package: regolith-i3-gnome
+Source: regolith-i3-config
+Version: 3.0.11-1-1regolith-1615864548
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 21
+Depends: regolith-i3-config, gnome-control-center, gnome-settings-daemon
+Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3-config/regolith-i3-gnome_3.0.11-1-1regolith-1615864548_amd64.deb
+Size: 6972
+SHA256: 0f7b34efc677fea62a4b30325b08f8bd7dd79026180849ababa36b13fbb2e4ed
+SHA1: 8b65146c0f9c35c2e19fa92790bf52eb70d70f69
+MD5sum: 517cec61bba66f82efbf2fb53653876b
+Description: gnome integrations for system management
+
+Package: regolith-i3-i3xrocks
+Source: regolith-i3-config
+Version: 3.0.11-1-1regolith-1615864548
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 22
+Depends: regolith-i3-config, i3xrocks, regolith-i3xrocks-config
+Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3-config/regolith-i3-i3xrocks_3.0.11-1-1regolith-1615864548_amd64.deb
+Size: 7152
+SHA256: 42b303d53023266e47bd74b0a0b03c483414fc75d1acbe53ad7ef2b6f6d1d67a
+SHA1: 4e83a1394c4cf3609ce1bfd19bb8b4aac6b14b12
+MD5sum: 08995ecf7a548ae1334afc424993f790
+Description: regolith default bar and status indicators
+
+Package: regolith-i3-networkmanager
+Source: regolith-i3-config
+Version: 3.0.11-1-1regolith-1615864548
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 20
+Depends: regolith-i3-config, network-manager-gnome
+Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3-config/regolith-i3-networkmanager_3.0.11-1-1regolith-1615864548_amd64.deb
+Size: 6724
+SHA256: 11f3afabed33287261ef9c2d688b923ab67dbb204e1f17640ef557b106a5a6cf
+SHA1: 65583fcef941f11d0f59a832bdeb5a1f40fd00e0
+MD5sum: a4181c84f64765115c99439971781b58
+Description: nm-applet integration with i3
+
+Package: regolith-i3-next-workspace
+Source: regolith-i3-config
+Version: 3.0.11-1-1regolith-1615864548
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 20
+Depends: regolith-i3-config, i3-next-workspace
+Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3-config/regolith-i3-next-workspace_3.0.11-1-1regolith-1615864548_amd64.deb
+Size: 6752
+SHA256: 28068ec2952a98975e8517b50d64548d59a87a05d38c7978454b29a3e8719716
+SHA1: 048f97a8b755b7889a33af09080a3658be2d2e05
+MD5sum: 7675df03239a8f7054f047a042b6ce63
+Description: easy i3 workspace creation
+
+Package: regolith-i3-remontoire
+Source: regolith-i3-config
+Version: 3.0.11-1-1regolith-1615864548
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 20
+Depends: regolith-i3-config, remontoire
+Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3-config/regolith-i3-remontoire_3.0.11-1-1regolith-1615864548_amd64.deb
+Size: 6848
+SHA256: 3407fb9a5d9513a905ff59753895271f904ffb4bffcf2f74fcc1ef6e492e75af
+SHA1: e82f2a2691b63ddb5b219cea922ed65ddfa34c7a
+MD5sum: 45140a7ad3a5bf7e987b275d557edae6
+Description: Help for new users
+
+Package: regolith-i3-rofi
+Source: regolith-i3-config
+Version: 3.0.11-1-1regolith-1615864548
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 21
+Depends: rofi, regolith-i3-config, regolith-rofi-config
+Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3-config/regolith-i3-rofi_3.0.11-1-1regolith-1615864548_amd64.deb
+Size: 6972
+SHA256: a1642abe114d673a514a3e45e1b62fb5e76c441416dc98c7b333997b311ce93f
+SHA1: 3cae0eeea290dbf1b1560a608de1932a5527c39f
+MD5sum: 1b7dc5eeed7d37670d1eef6713db8151
+Description: Global menu system
+
+Package: regolith-i3-rofication
+Source: regolith-i3-config
+Version: 3.0.11-1-1regolith-1615864548
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 20
+Depends: rofi, regolith-i3-config, regolith-rofication
+Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3-config/regolith-i3-rofication_3.0.11-1-1regolith-1615864548_amd64.deb
+Size: 6760
+SHA256: 1ce9a9395e8d730726e2bfae6e6b32bba38b2904f641b49b167765b847f60cca
+SHA1: 953548dc2df86f2629a345ec4e14299e1c01ec58
+MD5sum: fdee06e2041ad1d0929283819d2bf980
+Description: Rofi based notifications
+
+Package: regolith-i3-snapshot
+Source: regolith-i3-config
+Version: 3.0.11-1-1regolith-1615864548
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 20
+Depends: regolith-i3-config, i3-snapshot
+Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3-config/regolith-i3-snapshot_3.0.11-1-1regolith-1615864548_amd64.deb
+Size: 6776
+SHA256: 09d0e860c55c84d39e8751e7a7ef76e537030d82200e2afb640baf67642d16ba
+SHA1: 37d4773b3c55fa486c48d8e21f7981af6f3b3526
+MD5sum: a56e1235e9f576920ece056b9a36e93d
+Description: Save and restore in-session window layouts in i3
+
+Package: regolith-i3-unclutter
+Source: regolith-i3-config
+Version: 3.0.11-1-1regolith-1615864548
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 20
+Depends: regolith-i3-config, regolith-unclutter-xfixes
+Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3-config/regolith-i3-unclutter_3.0.11-1-1regolith-1615864548_amd64.deb
+Size: 6716
+SHA256: 7796f1355513c0ceaff2b5d1bc28310d99676779a7327c0ee9e3762857f1cfe9
+SHA1: e52d3cfdbcc11c37c4148d277a937cd210e9382b
+MD5sum: 6370fc19b209177952f02387147e85c6
+Description: Hide the mouse cursor if not used
+
+Package: regolith-i3xrocks-config
+Version: 3.6.0-1-1regolith-1615864644
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 24
+Depends: xrescat
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3xrocks-config/regolith-i3xrocks-config_3.6.0-1-1regolith-1615864644_amd64.deb
+Size: 9160
+SHA256: 6829201e733ddaea43d3ac90a1e28b90aad7e90569475454dfeb328fd95505c3
+SHA1: b883836a055ccac3828ccc2c4ec20fe46abc3dd0
+MD5sum: fbd080f5eebeebf98e95e52014b03787
+Description: Regolith configuration for i3xrocks launcher
+ A Regolith configuration for the i3xrocks launcher
+
+Package: regolith-look-minimal
+Version: 0.1.1-1-1regolith-1615864602
+Architecture: amd64
+Maintainer: Regolith Linux <regolith.linux@gmail.com>
+Installed-Size: 21
+Depends: fonts-materialdesignicons-webfont (>= 1.6.50), fonts-dejavu-core, ayu-theme
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-look-minimal/regolith-look-minimal_0.1.1-1-1regolith-1615864602_amd64.deb
+Size: 4176
+SHA256: 42de05946a0a59119c08e2acaeebdf963f67b76544d7d2b53ffc3f896edda0c0
+SHA1: c161f73c2f61de30f11acf69bd1f642f13689f21
+MD5sum: 7c8b8446633980abb02f2a32ec3b1425
+Description: Simple Look for Regolith with minimal dependencies
+ A basic Regolith look optimized for minimal dependencies.
+
+Package: regolith-rofi-config
+Version: 1.4.1-1-1regolith-1615864764
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 15
+Depends: mlocate, xdg-utils
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-rofi-config/regolith-rofi-config_1.4.1-1-1regolith-1615864764_amd64.deb
+Size: 4164
+SHA256: 49dce434ebf8ed80389db3616bdc3bdb35bfbcc38c465301deaf41add7d5db5c
+SHA1: a437d6efa97aeefce3553504130754c84e87932f
+MD5sum: d06c135496a9d337f0fd0ff6f0e76b6b
+Description: Regolith configuration for rofi launcher
+ This package adds scripts to Rofi for file search and
+ perhaps other utilities in the future.
+
+Package: regolith-rofication
+Version: 1.3.1-1-1regolith-1615864776
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 53
+Depends: python3-dbus (>= 1.2.6), python3-gi (>= 3.26.1), python3:any (>= 3.6~), i3xrocks, regolith-i3xrocks-config, gnome-flashback
+Conflicts: dunst, notify-osd
+Breaks: i3xrocks-rofication (<< 3.5.3)
+Replaces: notification-daemon
+Provides: notification-daemon
+Homepage: https://github.com/regolith-linux/regolith-rofication
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-rofication/regolith-rofication_1.3.1-1-1regolith-1615864776_amd64.deb
+Size: 9976
+SHA256: cb26faf72979874d9de0411a992aa7aa05a4398056a9e5e58657c832181390d5
+SHA1: 83db0525d79772c18e5456a60b49c32843e11ca3
+MD5sum: e0b44f73a9becb5dcf8188fed9484f3d
+Description: Rofication notification system
+ Rofication provides an unobtrusive notification system based on a rofi frontend.
+
+Package: regolith-session-flashback
+Source: regolith-session
+Version: 0.2.11-1-1regolith-1615864268
+Architecture: amd64
+Maintainer: Regolith Linux <regolith.linux@gmail.com>
+Installed-Size: 31
+Depends: dbus, gnome-flashback, gnome-session-bin, mutter-common, regolith-i3-config, x11-xserver-utils, regolith-look-minimal, xorg, xrescat
+Suggests: update-manager, software-properties-gtk
+Conflicts: regolith-desktop-session, session-shortcuts
+Replaces: regolith-desktop-session
+Provides: regolith-desktop-session
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-session/regolith-session-flashback_0.2.11-1-1regolith-1615864268_amd64.deb
+Size: 6108
+SHA256: 563d1b75bacc4868d882cc7970cc1b0e685d1c0e011b4df7d3d61d003e985e00
+SHA1: b4ad6655c2913c76b2b2cd603e5e0d1ba61cdab1
+MD5sum: a451a527beb1cf54780adfef07f30536
+Description: Regolith customized gnome-flashback session
+ This package contains the desktop and xsession configuration
+ necessary to start a Regolith gnome-flashback / i3 desktop session.
+ It is based on https://github.com/deuill/i3-gnome-flashback.
+
+Package: regolith-unclutter-xfixes
+Version: 1.5-2-1regolith-1615864817
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 42
+Depends: libc6 (>= 2.4), libev4 (>= 1:4.04), libx11-6 (>= 2:1.2.99.901), libxfixes3 (>= 1:4.0.1), libxi6 (>= 2:1.2.99.4)
+Conflicts: unclutter-xfixes
+Replaces: unclutter-xfixes
+Provides: unclutter-xfixes
+Homepage: https://github.com/Airblader/unclutter-xfixes
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-unclutter-xfixes/regolith-unclutter-xfixes_1.5-2-1regolith-1615864817_amd64.deb
+Size: 10936
+SHA256: 131b0a40314ec69f4ac1e5d5cc4b47456f4b9a07cbc6b448a8df81551ed1254b
+SHA1: f1ba484aaa0e8c071fcde349ea399c4a2a5c8822
+MD5sum: dbbf0cf0ceec8eeefb6bcceda32f1406
+Description: Rewrite of unclutter using the x11-xfixes extension
+ This package varies from the Ubuntu version as it does not depend
+ on a daemon to cause the program to automatically start.  Rather,
+ the i3 config is responsible for starting unclutter in Regolith.
+ See https://github.com/regolith-linux/speed-ricer/issues/14 for
+ details.
+
+Package: remontoire
+Version: 1.4.1-1-1regolith-1615864734
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 98
+Depends: libc6 (>= 2.4), libgee-0.8-2 (>= 0.10.1), libglib2.0-0 (>= 2.37.3), libgtk-3-0 (>= 3.22), libjson-glib-1.0-0 (>= 0.12.0), dconf-gsettings-backend | gsettings-backend, libjsonrpc-glib-1.0-1
+Recommends: fonts-font-awesome
+Homepage: https://github.com/regolith-linux/remontoire
+Priority: optional
+Section: x11
+Filename: pool/main/r/remontoire/remontoire_1.4.1-1-1regolith-1615864734_amd64.deb
+Size: 23144
+SHA256: c757acdd0f20001e9f63f99b81556d930dcc0a2e22c56f511bd6e280549c2cea
+SHA1: 173b44e4fce3c9d20db5296e12cc490a328b8669
+MD5sum: a4e6b4d91ef56909882181ad6f8c093b
+Description: General purpose keybinding viewer
+ Remontoire reads keybinding specifications via a specific
+ string format and displays them in a one-level-deep tree
+ structure suitable for tiling window managers such as i3.
+
+Package: xrescat
+Version: 1.2.1-1-1regolith-1615864804
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 29
+Depends: libc6 (>= 2.4), libx11-6
+Homepage: https://github.com/tamirzb/xrescat
+Priority: optional
+Section: x11
+Filename: pool/main/x/xrescat/xrescat_1.2.1-1-1regolith-1615864804_amd64.deb
+Size: 5844
+SHA256: 44a8417717caf271faab254029edd546a254df3ba3d3a599fe238e07fb73b821
+SHA1: 4a9a85b0c521885dfb8912bf928a2af0b1b5a9e4
+MD5sum: c746d9142c4fc3b7e2cf0bd3a28daf8b
+Description: cat Xresources
+ Simple utility which prints the value of an X resource.
+

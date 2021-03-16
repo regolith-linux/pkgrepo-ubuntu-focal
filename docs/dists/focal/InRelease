@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: regolith-linux.github.io/debian-repo
+Label: Regolith Desktop Environment
+Codename: focal
+Date: Tue, 16 Mar 2021 03:20:36 UTC
+Architectures: amd64
+Components: main
+Description: Regolith Ubuntu
+MD5Sum:
+ 15562a61bb0ffe87a68df4382268e6ed 49375 main/binary-amd64/Packages
+ 6c05212890135793dbc9c99b97a9a1d4 12825 main/binary-amd64/Packages.gz
+ 94a09fede28afcd2a26e6dbb1a5535df 146 main/binary-amd64/Release
+ 389d156735f9fd439d42fa043888f90e 41763 main/source/Sources
+ 428b0906e89e7dc5e9c06a996616317b 10656 main/source/Sources.gz
+ bc9adff02b6405ece65f557314aad2d4 147 main/source/Release
+SHA1:
+ 0906db4ba06304920410f0d92d8fd074edbc6c7e 49375 main/binary-amd64/Packages
+ 47f047ded4ca29e50c33947cebc6cb7045cf64ae 12825 main/binary-amd64/Packages.gz
+ 2bde87e4ee896ed6b2525cacbd203683e7bc2e1e 146 main/binary-amd64/Release
+ 261b57feb769e55b3bc8074bfcbcf86a1ee4ccc3 41763 main/source/Sources
+ 0d4bd35a6b00e9f5dbf82834a497fc373fc7d067 10656 main/source/Sources.gz
+ cfaf8d38b8042f8657a5ee9f1d628d335c38252e 147 main/source/Release
+SHA256:
+ f2538cab691fcd381e8e00d384374e878040d4bda4d8d02ecfd4f3b235039d01 49375 main/binary-amd64/Packages
+ 7018926652e7d3745434840b20e427b228499454bae8a19e40bccb228364ecbd 12825 main/binary-amd64/Packages.gz
+ af4d88a1f6a2007588ba0cbc489129e0fa509ffef84572ce279959aeec44b554 146 main/binary-amd64/Release
+ 1149a964959872ef9b80b185a1349d2112ae404d4460662b1fc74d327511708e 41763 main/source/Sources
+ 4ec44ff6711394ef1a9de51000b1c0f4b834281593bd84acba61b8b48ec4df28 10656 main/source/Sources.gz
+ e1ff72b27ae39bdb9dd5e750ffd39ab9cc343b0841d561428925d00ae9e9be59 147 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEE7mv+n4vZgYAzmYmZD3H2LCwDEjMFAmBQJAQACgkQD3H2LCwD
+EjPKBwv/d90ljg4wNWekOv1iLskh9ikbkO6zHpsU5StvUZD4m9yrSt3RKUn/lTn8
+XP1YyL1jClkUVAT+ITAfUI9SI4A2YuhvSAe2MJhUarn5KA5PJyuaY21TxOBoUCJq
+0elKOaG0hqMzrEl7maqwMJ9Ow+zOAaTiyAsX3VwKkbvNgnQuMZFe9tcJwwnCVdDb
+Ra9rOtc+fJLxVXaL2imCP1YavrlPapneFDnamjkwgbgPedWyeog8UFgP/adA4gji
+R57PmyzDeUhGZnsS8iRILI8RpWBkhT+TtDqsw1iZ86a6UgXwQcv34iEXCEm4DSQd
+4v0HL0LDUZxDCRWRF0FVq0zDm0mESXWt+yWoz5DoS2RayN2JRZh/o64ehGd3Ka0E
+a3CCIRgKBsv2O6S3SZfzMCDBpCtlofb/gQJqeHd+d9EYhC91nIIOsNYaJAypqA2B
+rMPk1usJbJ6Jc3R9t9+IxdnVA1eBnlMptmXqapCS+xbl0KaS16doBwmrD7qymD1s
+Wo8QatLW
+=Nlse
+-----END PGP SIGNATURE-----
