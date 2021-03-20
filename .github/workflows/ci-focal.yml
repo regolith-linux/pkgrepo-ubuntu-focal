@@ -17,8 +17,10 @@ jobs:
       - name: Generate Manifest
         run: |
           [ -e ./manifest.txt ] && rm ./manifest.txt
-          ./pkgrepo-lib/build-manifest.sh ./package-model-focal-R2.0.json ./manifest.txt /tmp/reprepro              
-      
+          ./pkgrepo-lib/build-manifest.sh ./package-model-focal-R2.0.json ./manifest-raw.txt /tmp/reprepro
+          sort ./manifest-raw.txt > ./manifest.txt
+          rm ./manifest-raw.txt
+
       - name: Check if there are changes
         id: changes
         uses: UnicornGlobal/has-changes-action@v1.0.11
